@@ -6,6 +6,7 @@
   <packaging>pom</packaging>
   <modules>
     <module>rat-order-management</module>
+    <module>rat-common</module>
   </modules>
 
   <parent>
