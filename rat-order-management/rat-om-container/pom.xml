@@ -8,8 +8,31 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
+  <packaging>jar</packaging>
 
   <artifactId>rat-om-container</artifactId>
 
+  <dependencies>
+    <dependency>
+      <groupId>com.rat.oms</groupId>
+      <artifactId>rat-om-domain-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.rat.oms</groupId>
+      <artifactId>rat-om-domain-application</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.rat.oms</groupId>
+      <artifactId>rat-om-dataaccess</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.rat.oms</groupId>
+      <artifactId>rat-om-messaging</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.rat.oms</groupId>
+      <artifactId>rat-om-application</artifactId>
+    </dependency>
+  </dependencies>
 
 </project>

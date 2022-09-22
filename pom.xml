@@ -29,11 +29,44 @@
     </plugins>
   </build>
 
-
-
   <properties>
     <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
   </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.rat.oms</groupId>
+        <artifactId>rat-common-domain</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.rat.oms</groupId>
+        <artifactId>rat-om-application</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.rat.oms</groupId>
+        <artifactId>rat-om-domain-core</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.rat.oms</groupId>
+        <artifactId>rat-om-dataaccess</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.rat.oms</groupId>
+        <artifactId>rat-om-messaging</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.rat.oms</groupId>
+        <artifactId>rat-om-domain-application</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
 
 </project>

@@ -11,6 +11,13 @@
 
   <artifactId>rat-om-dataaccess</artifactId>
 
+  <dependencies>
+    <dependency>
+      <groupId>com.rat.oms</groupId>
+      <artifactId>rat-om-domain-application</artifactId>
+    </dependency>
+  </dependencies>
+
 
 
 </project>

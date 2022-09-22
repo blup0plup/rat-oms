@@ -11,5 +11,11 @@
 
   <artifactId>rat-om-domain-application</artifactId>
 
+  <dependencies>
+    <dependency>
+      <groupId>com.rat.oms</groupId>
+      <artifactId>rat-om-domain-core</artifactId>
+    </dependency>
+  </dependencies>
 
 </project>
